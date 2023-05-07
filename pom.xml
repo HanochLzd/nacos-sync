@@ -183,6 +183,18 @@
                 <artifactId>nacossync-worker</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.dameng</groupId>
+                <artifactId>DmJdbcDriver18</artifactId>
+                <version>8.1.2.192</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.dameng/DmDialect-for-hibernate5.6 -->
+            <dependency>
+                <groupId>com.dameng</groupId>
+                <artifactId>DmDialect-for-hibernate5.6</artifactId>
+                <version>8.1.2.192</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
